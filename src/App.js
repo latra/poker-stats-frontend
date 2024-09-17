@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import PokerCalculator from './component/PokerCalculator';
 
-function App() {
+const App = () => {
+  const [language, setLanguage] = useState('en');
+
+  const handleLanguageChange = (e) => {
+    setLanguage(e.target.value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="mb-4">
+        <label>Select Language: </label>
+        <select value={language} onChange={handleLanguageChange}>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
+
+      <PokerCalculator language={language} />
     </div>
   );
-}
+};
 
 export default App;
