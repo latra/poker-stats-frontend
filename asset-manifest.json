@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/poker-stats-frontend/static/css/main.2afa21ff.css",
+    "main.js": "/poker-stats-frontend/static/js/main.8f87aabc.js",
+    "static/js/453.6a52f192.chunk.js": "/poker-stats-frontend/static/js/453.6a52f192.chunk.js",
+    "index.html": "/poker-stats-frontend/index.html",
+    "main.2afa21ff.css.map": "/poker-stats-frontend/static/css/main.2afa21ff.css.map",
+    "main.8f87aabc.js.map": "/poker-stats-frontend/static/js/main.8f87aabc.js.map",
+    "453.6a52f192.chunk.js.map": "/poker-stats-frontend/static/js/453.6a52f192.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2afa21ff.css",
+    "static/js/main.8f87aabc.js"
+  ]
+}
